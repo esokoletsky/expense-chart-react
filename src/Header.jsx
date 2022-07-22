@@ -11,8 +11,12 @@ function Header() {
       justifyContent='space-between'
     >
       <Box color='white'>
-        <Text>My Balance</Text>
-        <Text fontWeight='700'>$921.48</Text>
+        <Text fontSize='m' opacity='.9'>
+          My Balance
+        </Text>
+        <Text fontWeight='700' fontSize='2xl'>
+          $921.48
+        </Text>
       </Box>
       <Image src={logo} />
     </Flex>

@@ -1,0 +1,37 @@
+[
+  {
+    "day": "mon",
+    "amount": 17.45,
+    "color": "softRed"
+  },
+  {
+    "day": "tue",
+    "amount": 34.91,
+    "color": "softRed"
+  },
+  {
+    "day": "wed",
+    "amount": 52.36,
+    "color": "cyan"
+  },
+  {
+    "day": "thu",
+    "amount": 31.07,
+    "color": "softRed"
+  },
+  {
+    "day": "fri",
+    "amount": 23.39,
+    "color": "softRed"
+  },
+  {
+    "day": "sat",
+    "amount": 43.28,
+    "color": "softRed"
+  },
+  {
+    "day": "sun",
+    "amount": 25.48,
+    "color": "softRed"
+  }
+]
