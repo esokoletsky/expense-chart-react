@@ -4,7 +4,7 @@ import data from "./data.json";
 
 function Chart() {
   return (
-    <Box backgroundColor='white' borderRadius={8} mt={4} p='1.3rem'>
+    <Box backgroundColor='white' borderTopRadius={8} mt={4} p='1.3rem'>
       <Text fontWeight='700' fontSize='2xl' mb='3.75rem'>
         Spending - Last 7 Days
       </Text>
@@ -25,6 +25,7 @@ function Chart() {
             >
               <Box
                 width='2.25rem'
+                mx='.2rem'
                 backgroundColor={chart.color}
                 height={`calc(${chart.amount} * 3.2px)`}
                 borderRadius={3}
@@ -39,7 +40,7 @@ function Chart() {
           </Flex>
         ))}
       </Flex>
-      <hr />
+      <hr style={{ borderTopWidth: "2px", borderColor: "hsl(27, 66%, 92%)" }} />
     </Box>
   );
 }
